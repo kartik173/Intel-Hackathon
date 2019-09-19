@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="2">
+
+<script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</script>
+<style>
+body {
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+.time-right1 {
+  float: right;
+  color: #aaa;
+}
+
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.resp_right{
+	float: right;
+	  color: #000;
+}
+
+</style>
+
+</head>
+<body>
+
+<h2>V<sup>2</sup> Assist</h2>
+
+
+{%for i in res%} 
+
+{%if i[0]!="bye"%} 
+
+
+<div class="container">
+  <img src= "{{ url_for('static', filename = 'customer.png') }}"alt="Avatar" style="width:100%;">
+  <p>{{i[0]}}</p>
+  <span class="time-right">{{i[1]}}</span>
+</div>
+
+
+<div class="container darker">
+  <img src="{{ url_for('static', filename = 'v2.jpg') }}" alt="Avatar" class="right" style="width:100%;">
+	<p> <span class="resp_right">{{"Possible Category: "}}<b style = "color: #339933;"> {{i[2]}} </b></span></p>
+
+	
+	<br>
+	<!--p class="resp_right" >You can refer the below URLs for help</p-->
+	
+	  {%if i[2] =="Bank account and service"%} 
+	 <p class="time-right1"> <a  href="https://en.wikipedia.org/wiki/Bank_account">https://en.wikipedia.org/wiki/Bank_account</a></p>
+	  {%elif i[2] =="Credit card"%}
+	  <p class="time-right1">  <a  href="https://en.wikipedia.org/wiki/Credit_card">https://en.wikipedia.org/wiki/Credit_card</a></p>
+	  {%elif i[2] =="Loan"%}
+	  <p class="time-right1"><a   href="https://en.wikipedia.org/wiki/Loan">https://en.wikipedia.org/wiki/Loan</a></p>
+
+  {%endif%}
+  <br>
+  
+</div>
+{%else%}
+
+<div class="container">
+  <img src= "{{ url_for('static', filename = 'customer.png') }}"alt="Avatar" style="width:100%;">
+  <p>Good bye, thanks for assisting</p>
+  <span class="time-right">{{i[1]}}</span>
+</div>
+
+
+<div class="container darker">
+  <img src="{{ url_for('static', filename = 'v2.jpg') }}" alt="Avatar" class="right" style="width:100%;">
+	<p> <span class="resp_right">Thanks for using v2assist</span></p>
+
+	
+	
+
+{%endif%}
+
+{%endfor%} 
+
+
+
+</body>
+</html>

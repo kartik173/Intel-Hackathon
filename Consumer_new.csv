@@ -1,0 +1,523 @@
+Category,Description
+Bank account or service,Managing an account Problem making or receiving payments
+Loan,Threatened to contact someone or share information improperly Contacted you after you asked them to stop
+Bank account or service,Managing an account Banking errors
+Loan,Written notification about debt Didn't receive enough information to verify debt
+Loan,Improper use of your report Reporting company used your report improperly
+Loan,Attempts to collect debt not owed Debt is not yours
+Credit card,Incorrect information on your report Old information reappears or never goes away
+Loan,Attempts to collect debt not owed Debt was paid
+Credit card,Incorrect information on your report Account status incorrect
+Credit card,Problem with a credit reporting company's investigation into an existing problem Their investigation did not fix an error on your report
+Loan,Attempts to collect debt not owed Debt was result of identity theft
+Loan,Took or threatened to take negative or legal action Threatened to sue you for very old debt
+Loan,Trouble during payment process 
+Loan,Applying for a mortgage or refinancing an existing mortgage 
+Credit card,Problem with a purchase shown on your statement Credit card company isn't resolving a dispute about a purchase on your statement
+Credit card,Incorrect information on your report Information belongs to someone else
+Loan,Communication tactics Frequent or repeated calls
+Credit card,Problem with a credit reporting company's investigation into an existing problem Their investigation did not fix an error on your report
+Credit card,Credit monitoring or identity theft protection services Problem canceling credit monitoring or identify theft protection service
+Loan,Attempts to collect debt not owed Debt was already discharged in bankruptcy and is no longer owed
+Credit card,Improper use of your report Reporting company used your report improperly
+Loan,Took or threatened to take negative or legal action Threatened to arrest you or take you to jail if you do not pay
+Credit card,Improper use of your report Credit inquiries on your report that you don't recognize
+Loan,False statements or representation Told you not to respond to a lawsuit they filed against you
+Loan,Incorrect information on your report Account status incorrect
+Loan,Written notification about debt Didn't receive notice of right to dispute
+Bank account or service,Managing an account Problem accessing account
+Bank account or service,Managing an account Funds not handled or disbursed as instructed
+Bank account or service,Managing an account Deposits and withdrawals
+Loan,"Communication tactics You told them to stop contacting you, but they keep trying"
+Loan,Struggling to pay your loan 
+Credit card,Unable to get your credit report or credit score Other problem getting your report or credit score
+Credit card,Incorrect information on your report Account information incorrect
+Loan,Getting the loan 
+Credit card,Improper use of your report Report provided to employer without your written authorization
+Loan,Struggling to pay your loan Loan balance remaining after the vehicle is repossessed and sold
+Loan,Getting a loan or lease Credit denial
+Bank account or service,Problem with a lender or other company charging your account Transaction was not authorized
+Loan,Problem with additional add-on products or services 
+Loan,Managing the loan or lease Loan sold or transferred to another company
+Bank account or service,Closing an account Funds not received from closed account
+Loan,Written notification about debt Notification didn't disclose it was an attempt to collect a debt
+Credit card,Problem with fraud alerts or security freezes 
+Loan,False statements or representation Attempted to collect wrong amount
+Loan,Incorrect information on your report 
+Loan,"Problems at the end of the loan or lease Excess mileage, damage, or wear fees, or other problem after the lease is finish"
+Bank account or service,Managing an account Problem using a debit or ATM card
+Bank account or service,Managing an account Fee problem
+Credit card,Trouble using the card Trouble using the card to spend money in a store or online
+Credit card,Unable to get your credit report or credit score Problem getting your free annual credit report
+Loan,Dealing with your lender or servicer Trouble with how payments are being handled
+Loan,Threatened to contact someone or share information improperly Contacted your employer
+Loan,Problem when making payments 
+Credit card,"Advertising and marketing, including promotional offers Didn't receive advertised or promotional terms"
+Loan,Took or threatened to take negative or legal action Threatened or suggested your credit would be damaged
+Bank account or service,Opening an account Account opened as a result of fraud
+Loan,Took or threatened to take negative or legal action Collected or attempted to collect exempt funds
+Credit card,Problem with a purchase or transfer Charged for a purchase or transfer you did not make with the card
+Loan,Managing the loan or lease Billing problem
+Bank account or service,Managing an account Cashing a check
+Loan,Dealing with your lender or servicer Received bad information about your loan
+Credit card,"Other features, terms, or problems Other problem"
+Bank account or service,Fraud or scam 
+Loan,Struggling to pay mortgage 
+Bank account or service,Opening an account Didn't receive terms that were advertised
+Credit card,Problem with a credit reporting company's investigation into an existing problem Investigation took more than 30 days
+Credit card,Closing your account Company closed your account
+Credit card,Incorrect information on your report Public record information inaccurate
+Credit card,Getting a credit card Application denied
+Credit card,Incorrect information on your report Information is incorrect
+Credit card,Problem when making payments Problem during payment process
+Credit card,Incorrect information on your report Information is missing that should be on the report
+Loan,Took or threatened to take negative or legal action Seized or attempted to seize your property
+Loan,Took or threatened to take negative or legal action Sued you without properly notifying you of lawsuit
+Credit card,Problem with a company's investigation into an existing issue Investigation took more than 30 days
+Credit card,Problem with a credit reporting company's investigation into an existing problem Was not notified of investigation status or results
+Loan,"False statements or representation Impersonated attorney, law enforcement, or government official"
+Loan,Closing on a mortgage 
+Credit card,Fees or interest Charged too much interest
+Loan,False statements or representation Indicated you were committing crime by not paying debt
+Loan,Getting a loan Fraudulent loan
+Bank account or service,Problem caused by your funds being low Overdrafts and overdraft fees
+Loan,Struggling to repay your loan Can't get other flexible options for repaying your loan
+Loan,Struggling to pay your loan Lender trying to repossess or disable the vehicle
+Loan,Dealing with your lender or servicer Don't agree with the fees charged
+Bank account or service,Managing an account Problem with fees or penalties
+Loan,Problems at the end of the loan or lease Unable to receive car title or other problem after the loan is paid off
+Credit card,"Other features, terms, or problems Add-on products and services"
+Loan,Charged fees or interest you didn't expect 
+Bank account or service,Opening an account Unable to open an account
+Credit card,Fees or interest Problem with fees
+Credit card,Fees or interest Unexpected increase in interest rate
+Bank account or service,Managing an account Deposits or withdrawals
+Bank account or service,Closing an account Company closed your account
+Bank account or service,Other transaction problem 
+Credit card,Incorrect information on your report Personal information incorrect
+Credit card,Incorrect information on your report Account status incorrect
+Credit card,Problem with a credit reporting company's investigation into an existing problem Difficulty submitting a dispute or getting information about a dispute over the phone
+Credit card,Closing your account Can't close your account
+Loan,Threatened to contact someone or share information improperly Talked to a third-party about your debt
+Credit card,Problem with a credit reporting company's investigation into an existing problem Problem with personal statement of dispute
+Credit card,Problem with a purchase shown on your statement Card was charged for something you did not purchase with the card
+Credit card,Unexpected or other fees 
+Bank account or service,Closing an account Fees charged for closing account
+Bank account or service,Closing an account Can't close your account
+Loan,Getting a loan or lease Confusing or misleading advertising or marketing
+Loan,Problems at the end of the loan or lease Problem related to refinancing
+Loan,"Communication tactics Used obscene, profane, or other abusive language"
+Credit card,"Other features, terms, or problems Problem with balance transfer"
+Loan,Dealing with your lender or servicer Need information about your loan balance or loan terms
+Credit card,"Other features, terms, or problems Privacy issues"
+Loan,Managing the loan or lease Problem with fees charged
+Loan,Received a loan you didn't apply for 
+Loan,Problems at the end of the loan or lease Termination fees or other problem when ending the lease early
+Loan,Dealing with your lender or servicer Problem with customer service
+Credit card,Trouble using your card Can't use card to make purchases
+Credit card,"Other features, terms, or problems Problem with rewards from credit card"
+Loan,Dealing with your lender or servicer Keep getting calls about your loan
+Loan,Getting a loan Confusing or misleading advertising
+Credit card,Getting a credit card Card opened as result of identity theft or fraud
+Credit card,Credit monitoring or identity theft protection services Problem with product or service terms changing
+Credit card,Getting a credit card Sent card you never applied for
+Loan,Problem with a credit reporting company's investigation into an existing problem Their investigation did not fix an error on your report
+Bank account or service,"Managing, opening, or closing your mobile wallet account "
+Loan,Struggling to repay your loan Can't temporarily delay making payments
+Bank account or service,Problem caused by your funds being low Late or other fees
+Loan,Getting a loan or lease Fraudulent loan
+Credit card,"Other features, terms, or problems Problem with customer service"
+Credit card,Credit monitoring or identity theft protection services Billing dispute for services
+Credit card,Problem when making payments You never received your bill or did not know a payment was due
+Credit card,Trouble using your card Credit card company won't increase or decrease your credit limit
+Credit card,Incorrect information on your report Account information incorrect
+Bank account or service,Problem caused by your funds being low Non-sufficient funds and associated fees
+Loan,Improper use of your report Credit inquiries on your report that you don't recognize
+Bank account or service,Managing an account Problem with renewal
+Credit card,Getting a credit card Delay in processing application
+Credit card,Advertising Changes in terms from what was offered or advertised
+Loan,Incorrect information on your report Account information incorrect
+Loan,Improper use of your report Report provided to employer without your written authorization
+Credit card,Fraud or scam 
+Credit card,Credit monitoring or identity theft protection services Didn't receive services that were advertised
+Loan,Incorrect information on your report Account information incorrect
+Credit card,Struggling to pay your bill Credit card company won't work with you while you're going through financial hardship
+Loan,Can't contact lender or servicer 
+Loan,Problem with a credit reporting company's investigation into an existing problem Problem with personal statement of dispute
+Loan,Applying for a mortgage 
+Loan,Struggling to repay your loan Problem lowering your monthly payments
+Loan,Communication tactics Called before 8am or after 9pm
+Loan,Problem with a credit reporting company's investigation into an existing problem 
+Credit card,Identity theft protection or other monitoring services Problem canceling credit monitoring or identify theft protection service
+Credit card,Confusing or misleading advertising or marketing 
+Credit card,"Advertising and marketing, including promotional offers Confusing or misleading advertising about the credit card"
+Bank account or service,Money was not available when promised 
+Credit card,Problem with a company's investigation into an existing issue Difficulty submitting a dispute or getting information about a dispute over the phone
+Loan,Loan payment wasn't credited to your account 
+Bank account or service,Problem with a lender or other company charging your account Can't stop withdrawals from your account
+Loan,Credit limit changed 
+Loan,Incorrect information on your report Account information incorrect
+Loan,Problems at the end of the loan or lease Problem while selling or giving up the vehicle
+Bank account or service,Problem with a lender or other company charging your account Money was taken from your account on the wrong day or for the wrong amount
+Loan,Struggling to pay your loan Problem after you declared or threatened to declare bankruptcy
+Bank account or service,Confusing or missing disclosures 
+Loan,Getting a loan or lease Changes in terms mid-deal or after closing
+Bank account or service,Other service problem 
+Credit card,Unexpected or other fees 
+Credit card,Identity theft protection or other monitoring services Didn't receive services that were advertised
+Loan,Problems at the end of the loan or lease Problem with paying off the loan
+Loan,Incorrect information on your report Information belongs to someone else
+Loan,Managing the loan or lease Problem with the interest rate
+Credit card,Problem with customer service 
+Credit card,Incorrect information on your report Information belongs to someone else
+Loan,Struggling to pay your loan Denied request to lower payments
+Credit card,Problem with a purchase or transfer Card company isn't resolving a dispute about a purchase or transfer
+Loan,Getting a loan or lease High-pressure sales tactics
+Loan,Getting a line of credit 
+Bank account or service,Unauthorized transactions or other transaction problem 
+Credit card,"Problem getting a card or closing an account Trouble getting, activating, or registering a card"
+Loan,Problem with the payoff process at the end of the loan 
+Loan,Problems at the end of the loan or lease Problem when attempting to purchase vehicle at the end of the lease
+Credit card,Problem getting a card or closing an account Trouble closing card
+Bank account or service,Opening an account Confusing or missing disclosures
+Credit card,Identity theft protection or other monitoring services Received unwanted marketing or advertising
+Bank account or service,Unexpected or other fees 
+Credit card,Identity theft protection or other monitoring services Billing dispute for services
+Loan,Credit monitoring or identity theft protection services 
+Loan,Incorrect information on your report Information belongs to someone else
+Loan,Incorrect information on your report Information belongs to someone else
+Credit card,Problem with overdraft Overdraft charges
+Credit card,Getting a credit card Problem getting a working replacement card
+Loan,Incorrect information on your report Account status incorrect
+Loan,Incorrect information on your report Personal information incorrect
+Loan,Getting a loan Denied loan
+Loan,Problem with a credit reporting company's investigation into an existing problem Investigation took more than 30 days
+Loan,Managing the loan or lease Problem with additional products or services purchased with the loan
+Credit card,Improper use of your report Credit inquiries on your report that you don't recognize
+Loan,Can't stop withdrawals from your bank account 
+Credit card,Problem getting a card or closing an account Don't want a card provided by your employer or the government
+Credit card,Trouble using the card Problem with direct deposit
+Credit card,Improper use of your report Received unsolicited financial product or insurance offers after opting out
+Loan,Getting a loan Problem with signing the paperwork
+Loan,Took or threatened to take negative or legal action Sued you in a state where you do not live or did not sign for the debt
+Credit card,Problem with a purchase shown on your statement Overcharged for something you did purchase with the card
+Bank account or service,Incorrect information on your report Old information reappears or never goes away
+Credit card,Problem with a credit reporting company's investigation into an existing problem Difficulty submitting a dispute or getting information about a dispute over the phone
+Credit card,"Other features, terms, or problems Credit card company forcing arbitration"
+Credit card,Incorrect information on your report Old information reappears or never goes away
+Bank account or service,Credit monitoring or identity theft protection services Didn't receive services that were advertised
+Bank account or service,Lost or stolen money order 
+Loan,Threatened to contact someone or share information improperly Contacted you instead of your attorney
+Bank account or service,Confusing or misleading advertising or marketing 
+Bank account or service,Problem caused by your funds being low Bounced checks or returned payments
+Loan,Vehicle was damaged or destroyed the vehicle 
+Loan,Getting a loan Problem with the interest rate
+Loan,Problem with cash advance 
+Credit card,Credit monitoring or identity theft protection services Billing dispute for services
+Credit card,Problem with fraud alerts or security freezes 
+Loan,Vehicle was repossessed or sold the vehicle 
+Loan,Problem with a credit reporting company's investigation into an existing problem Investigation took more than 30 days
+Loan,Problem with a credit reporting company's investigation into an existing problem Their investigation did not fix an error on your report
+Loan,Incorrect information on your report Old information reappears or never goes away
+Loan,Getting a loan or lease Problem with signing the paperwork
+Loan,Getting a loan Qualified for a better loan than the one offered
+Credit card,Trouble using the card Problem with a check written from your prepaid card account
+Loan,Problem with a credit reporting company's investigation into an existing problem Difficulty submitting a dispute or getting information about a dispute over the phone
+Loan,Problem with a credit reporting company's investigation into an existing problem Difficulty submitting a dispute or getting information about a dispute over the phone
+Loan,Incorrect information on your report Account status incorrect
+Credit card,Problem with a purchase or transfer Overcharged for a purchase or transfer you did make with the card
+Credit card,Problem with a company's investigation into an existing issue Was not notified of investigation status or results
+Credit card,Improper use of your report Reporting company used your report improperly
+Credit card,Confusing or missing disclosures 
+Loan,Problem with a credit reporting company's investigation into an existing problem Problem with personal statement of dispute
+Loan,Problem with a credit reporting company's investigation into an existing problem Their investigation did not fix an error on your report
+Loan,Incorrect information on your report Public record information inaccurate
+Loan,Problem with a credit reporting company's investigation into an existing problem Investigation took more than 30 days
+Credit card,Credit monitoring or identity theft protection services Received unwanted marketing or advertising
+Bank account or service,Wrong amount charged or received 
+Bank account or service,Incorrect exchange rate 
+Loan,Problem with fraud alerts or security freezes 
+Loan,Problem with a credit reporting company's investigation into an existing problem Difficulty submitting a dispute or getting information about a dispute over the phone
+Bank account or service,Problem with customer service 
+Credit card,Advertising Confusing or misleading advertising about the card
+Loan,Incorrect information on your report Information is missing that should be on the report
+Credit card,Problem with a credit reporting company's investigation into an existing problem Problem with personal statement of dispute
+Bank account or service,Problem with fraud alerts or security freezes 
+Bank account or service,Improper use of your report Reporting company used your report improperly
+Bank account or service,Incorrect information on your report Information belongs to someone else
+Loan,Credit monitoring or identity theft protection services Problem canceling credit monitoring or identify theft protection service
+Credit card,"Other features, terms, or problems Problem with convenience check"
+Credit card,"Other features, terms, or problems Problem with cash advances"
+Credit card,Unable to get your credit report or credit score Other problem getting your report or credit score
+Credit card,Problem with a company's investigation into an existing issue Problem with personal statement of dispute
+Credit card,Problem getting a card or closing an account Trouble getting a working replacement card
+Bank account or service,Problem with a credit reporting company's investigation into an existing problem Their investigation did not fix an error on your report
+Loan,Improper use of your report 
+Loan,Money was taken from your bank account on the wrong day or for the wrong amount 
+Credit card,Trouble using the card Trouble getting information about the card
+Loan,Getting a loan or lease Problem with additional add-on products or services purchased with the loan
+Credit card,Incorrect information on your report Information that should be on the report is missing
+Bank account or service,Incorrect information on your report Account information incorrect
+Loan,Incorrect information on your report Personal information incorrect
+Credit card,Problem with a credit reporting company's investigation into an existing problem Was not notified of investigation status or results
+Loan,Incorrect information on your report Information is missing that should be on the report
+Credit card,Incorrect information on your report Personal information incorrect
+Credit card,Trouble using the card Problem using the card to withdraw money from an ATM
+Loan,Unable to get your credit report or credit score 
+Credit card,Problem with a company's investigation into an existing issue Their investigation did not fix an error on your report
+Bank account or service,Lost or stolen check 
+Credit card,Incorrect information on your report Public record information inaccurate
+Bank account or service,Credit monitoring or identity theft protection services Billing dispute for services
+Loan,Improper use of your report Reporting company used your report improperly
+Bank account or service,Credit monitoring or identity theft protection services Problem with product or service terms changing
+Loan,Incorrect information on your report Information is missing that should be on the report
+Bank account or service,Problem adding money 
+Credit card,Excessive fees 
+Loan,Improper use of your report Credit inquiries on your report that you don't recognize
+Bank account or service,Improper use of your report Credit inquiries on your report that you don't recognize
+Credit card,Incorrect information on your report Information is missing that should be on the report
+Loan,Getting a loan or lease Problem with a trade-in
+Loan,Credit monitoring or identity theft protection services Received unwanted marketing or advertising
+Credit card,Struggling to pay your bill Problem lowering your monthly payments
+Credit card,Struggling to pay your bill Filed for bankruptcy
+Credit card,Trouble using the card Trouble using the card to pay a bill
+Credit card,Identity theft protection or other monitoring services Problem with product or service terms changing
+Loan,Incorrect information on your report Old information reappears or never goes away
+Bank account or service,Incorrect information on your report Account status incorrect
+Loan,Unable to get your credit report or credit score Other problem getting your report or credit score
+Bank account or service,Unable to get your credit report or credit score Problem getting your free annual credit report
+Loan,Credit monitoring or identity theft protection services Didn't receive services that were advertised
+Loan,Incorrect information on your report Public record information inaccurate
+Loan,Credit monitoring or identity theft protection services Billing dispute for services
+Loan,"Was approved for a loan, but didn't receive the money "
+Loan,Credit monitoring or identity theft protection services Received unwanted marketing or advertising
+Loan,Problems at the end of the loan or lease Problem extending the lease
+Credit card,Incorrect information on your report 
+Loan,Incorrect information on your report Old information reappears or never goes away
+Credit card,Trouble using your card Account sold or transferred to another company
+Loan,Credit monitoring or identity theft protection services Billing dispute for services
+Loan,Improper use of your report Reporting company used your report improperly
+Loan,Problem with fraud alerts or security freezes 
+Loan,Took or threatened to take negative or legal action Threatened to turn you in to immigration or deport you
+Bank account or service,"Overdraft, savings, or rewards features "
+Loan,Unable to get your credit report or credit score Other problem getting your report or credit score
+Loan,Credit monitoring or identity theft protection services Problem with product or service terms changing
+Credit card,Trouble using the card Problem adding money
+Bank account or service,Credit monitoring or identity theft protection services Received unwanted marketing or advertising
+Loan,Problem with a credit reporting company's investigation into an existing problem Was not notified of investigation status or results
+Loan,Cannot afford Payments 
+Credit card,Problem with a credit reporting company's investigation into an existing problem Investigation took more than 30 days
+Bank account or service,Problem with a credit reporting company's investigation into an existing problem Investigation took more than 30 days
+Loan,Improper use of your report Credit inquiries on your report that you don't recognize
+Loan,Credit monitoring or identity theft protection services Billing dispute for services
+Credit card,Dealing with your lender or servicer Received bad information about your loan
+Bank account or service,Improper use of your report Received unsolicited financial product or insurance offers after opting out
+Bank account or service,Incorrect information on your report Personal information incorrect
+Bank account or service,Unable to get your credit report or credit score Other problem getting your report or credit score
+Loan,Improper use of your report Received unsolicited financial product or insurance offers after opting out
+Loan,Problem with a credit reporting company's investigation into an existing problem Was not notified of investigation status or results
+Bank account or service,Problem with a credit reporting company's investigation into an existing problem Problem with personal statement of dispute
+Loan,Getting a loan or lease Confusing or misleading advertising
+Credit card,Improper use of your report Report provided to employer without your written authorization
+Loan,Credit monitoring or identity theft protection services Didn't receive services that were advertised
+Loan,Credit monitoring or identity theft protection services Didn't receive services that were advertised
+Loan,Problem with fraud alerts or security freezes 
+Loan,Improper use of your report Received unsolicited financial product or insurance offers after opting out
+Credit card,Credit monitoring or identity theft protection services Didn't receive services that were advertised
+Loan,Problem with fraud alerts or security freezes 
+Loan,Unable to get your credit report or credit score Problem getting your free annual credit report
+Credit card,Credit monitoring or identity theft protection services Problem with product or service terms changing
+Loan,"Was approved for a loan, but didn't receive money "
+Loan,Problem with a credit reporting company's investigation into an existing problem Was not notified of investigation status or results
+Bank account or service,Incorrect information on your report Public record information inaccurate
+Loan,Problem with a credit reporting company's investigation into an existing problem Problem with personal statement of dispute
+Credit card,Improper use of your report Received unsolicited financial product or insurance offers after opting out
+Credit card,Credit monitoring or identity theft protection services Problem canceling credit monitoring or identify theft protection service
+Loan,Incorrect information on your report Public record information inaccurate
+Loan,Unable to get your credit report or credit score Other problem getting your report or credit score
+Bank account or service,Incorrect information on your report Information is missing that should be on the report
+Bank account or service,Problem with a credit reporting company's investigation into an existing problem Was not notified of investigation status or results
+Credit card,Unable to get your credit report or credit score Problem getting your free annual credit report
+Loan,Property was sold 
+Bank account or service,Problem with a credit reporting company's investigation into an existing problem Difficulty submitting a dispute or getting information about a dispute over the phone
+Loan,Improper use of your report Report provided to employer without your written authorization
+Bank account or service,Getting a line of credit 
+Credit card,Struggling to pay mortgage 
+Loan,Incorrect information on your report Personal information incorrect
+Loan,Credit monitoring or identity theft protection services Problem with product or service terms changing
+Bank account or service,Managing an account Non-sufficient funds and associated fees
+Loan,Credit monitoring or identity theft protection services Problem canceling credit monitoring or identify theft protection service
+Credit card,Payoff process 
+Credit card,Problem with the payoff process at the end of the loan 
+Credit card,Trouble using the card Trouble using the card to send money to another person
+Loan,Property was damaged or destroyed property 
+Loan,Credit monitoring or identity theft protection services Problem with product or service terms changing
+Credit card,"Problem with overdraft Was signed up for overdraft on card, but don't want to be"
+Loan,Credit monitoring or identity theft protection services Problem canceling credit monitoring or identify theft protection service
+Loan,Improper use of your report Report provided to employer without your written authorization
+Bank account or service,Improper use of your report Report provided to employer without your written authorization
+Credit card,Problem when making payments Problem during payment process
+Bank account or service,Credit monitoring or identity theft protection services Problem canceling credit monitoring or identify theft protection service
+Credit card,Closing on a mortgage 
+Loan,Credit monitoring or identity theft protection services Received unwanted marketing or advertising
+Credit card,Credit monitoring or identity theft protection services Received unwanted marketing or advertising
+Credit card,Problem with credit report or credit score 
+Loan,Problem with credit report or credit score 
+Credit card,Problem with credit report or credit score Incorrect information on your report
+Credit card,Getting a credit card Card opened as result of identity theft or fraud
+Loan,Unable to get your credit report or credit score Problem getting your free annual credit report
+Loan,Problem with credit report or credit score 
+Loan,Problem with credit report or credit score 
+Credit card,"Problem with an overdraft Was signed up for overdraft on card, but don't want to be"
+Credit card,"Other features, terms, or problems "
+Credit card,Other 
+Loan,"Loan servicing, payments, escrow account "
+Credit card,Incorrect information on credit report Account status
+Credit card,Delinquent account 
+Bank account or service,Using a debit or ATM card 
+Credit card,Incorrect information on credit report Account terms
+Loan,"Application, originator, mortgage broker "
+Bank account or service,"Account opening, closing, or management "
+Credit card,Incorrect information on credit report Information is not mine
+Credit card,Credit reporting company's investigation Problem with statement of dispute
+Loan,Communication tactics Threatened to take legal action
+Loan,Disclosure verification of debt Not given enough info to verify debt
+Credit card,Billing disputes 
+Credit card,Credit monitoring or identity protection Account terms and changes
+Credit card,Improper use of my credit report Report improperly shared by CRC
+Credit card,Credit monitoring or identity protection Billing dispute
+Loan,Cont'd attempts collect debt not owed Debt is not mine
+Credit card,Incorrect information on credit report Reinserted previously deleted info
+Loan,"Loan modification,collection,foreclosure "
+Loan,Credit decision / Underwriting 
+Loan,Improper contact or sharing of info Talked to a third party about my debt
+Credit card,Late fee 
+Loan,Cont'd attempts collect debt not owed Debt resulted from identity theft
+Credit card,Incorrect information on credit report Public record
+Credit card,Payoff process 
+Loan,Communication tactics Used obscene/profane/abusive language
+Loan,Dealing with my lender or servicer Don't agree with fees charged
+Credit card,Credit reporting company's investigation Inadequate help over the phone
+Loan,Dealing with my lender or servicer Received bad information about my loan
+Credit card,Fraud or scam 
+Loan,Managing the loan or lease 
+Credit card,Credit card protection / Debt protection 
+Loan,Dealing with my lender or servicer Trouble with how payments are handled
+Credit card,Incorrect information on credit report Personal information
+Bank account or service,Deposits and withdrawals 
+Loan,Can't repay my loan Can't temporarily postpone payments
+Loan,False statements or representation Impersonated an attorney or official
+Loan,Can't repay my loan Can't decrease my monthly payments
+Bank account or service,Problems caused by my funds being low 
+Loan,Cont'd attempts collect debt not owed Debt was paid
+Credit card,Identity theft / Fraud / Embezzlement 
+Bank account or service,"Making/receiving payments, sending money "
+Bank account or service,Fraud or scam 
+Loan,Taking/threatening an illegal action Threatened to sue on too old debt
+Credit card,Advertising and marketing 
+Credit card,Credit monitoring or identity protection Problem with fraud alerts
+Loan,Charged fees or interest I didn't expect 
+Loan,Taking out the loan or lease 
+Credit card,Credit monitoring or identity protection Receiving unwanted marketing/advertising
+Loan,Applied for loan/did not receive money 
+Credit card,Unable to get credit report/credit score Problem getting my free annual report
+Credit card,Credit reporting company's investigation Investigation took too long
+Loan,Disclosure verification of debt Right to dispute notice not received
+Credit card,Other fee 
+Loan,Settlement process and costs 
+Credit card,"Managing, opening, or closing account "
+Credit card,Unauthorized transactions/trans. issues 
+Credit card,Transaction issue 
+Loan,Can't contact lender 
+Loan,Dealing with my lender or servicer Having problems with customer service
+Loan,Improper contact or sharing of info Contacted me after I asked not to
+Credit card,Credit reporting company's investigation No notice of investigation status/result
+Credit card,Credit determination 
+Loan,Taking/threatening an illegal action Sued w/o proper notification of suit
+Loan,Improper contact or sharing of info Contacted employer after asked not to
+Credit card,"Advertising, marketing or disclosures "
+Credit card,Closing/Cancelling account 
+Loan,Dealing with my lender or servicer Keep getting calls about my loan
+Credit card,APR or interest rate 
+Loan,Taking/threatening an illegal action Attempted to/Collected exempt funds
+Bank account or service,Money was not available when promised 
+Bank account or service,Customer service/Customer relations 
+Loan,Can't repay my loan Can't get flexible payment options
+Loan,Problems when you are unable to pay 
+Credit card,Credit line increase/decrease 
+Credit card,Rewards 
+Loan,Other 
+Bank account or service,Fraud or scam 
+Loan,Shopping for a loan or lease 
+Loan,Dealing with my lender or servicer Need information about my balance/terms
+Loan,Communication tactics Called after sent written cease of comm
+Loan,Disclosure verification of debt Not disclosed as an attempt to collect
+Bank account or service,Incorrect/missing disclosures or info 
+Bank account or service,Disclosures 
+Credit card,Billing statement 
+Credit card,Unsolicited issuance of credit card 
+Bank account or service,Other service issues 
+Loan,Can't stop charges to bank account 
+Loan,Taking/threatening an illegal action Threatened arrest/jail if do not pay
+Credit card,Customer service / Customer relations 
+Loan,Charged bank acct wrong day or amt 
+Loan,Cont'd attempts collect debt not owed Debt was discharged in bankruptcy
+Credit card,Unable to get credit report/credit score Problem getting report or credit score
+Loan,Lender repossessed or sold the vehicle 
+Bank account or service,Other transaction issues 
+Credit card,Application processing delay 
+Credit card,Balance transfer 
+Loan,Received a loan I didn't apply for 
+Bank account or service,Wrong amount charged or received 
+Loan,Taking/threatening an illegal action Seized/Attempted to seize property
+Credit card,Balance transfer fee 
+Loan,Account terms and changes 
+Loan,Payment to acct not credited 
+Credit card,Sale of account 
+Credit card,Credit monitoring or identity protection Problem cancelling or closing account
+Loan,Taking/threatening an illegal action Sued where didn't live/sign for debt
+Loan,Applied for loan/did not receive money 
+Loan,Communication tactics Called outside of 8am-9pm
+Loan,Payment to acct not credited 
+Bank account or service,Excessive fees 
+Loan,False statements or representation Indicated committed crime not paying
+Bank account or service,Lost or stolen money order 
+Credit card,Forbearance / Workout plans 
+Loan,Charged fees or interest I didn't expect 
+Loan,Getting a loan Can't qualify for a loan
+Credit card,Arbitration 
+Loan,Improper contact or sharing of info Contacted me instead of my attorney
+Credit card,Convenience checks 
+Credit card,Bankruptcy 
+Loan,Managing the line of credit 
+Bank account or service,Advertising and marketing 
+Loan,Shopping for a line of credit 
+Credit card,Adding money 
+Bank account or service,Unexpected/Other fees 
+Loan,Getting a loan Qualify for a better loan than offered
+Loan,False statements or representation Indicated shouldn't respond to lawsuit
+Loan,Can't contact lender 
+Credit card,Improper use of my credit report Received marketing offer after opted out
+Credit card,Privacy 
+Credit card,Overlimit fee 
+Credit card,Cash advance fee 
+Loan,Received a loan I didn't apply for 
+Credit card,"Overdraft, savings or rewards features "
+Credit card,Cash advance 
+Credit card,Fees 
+Bank account or service,Lost or stolen check 
+Credit card,Improper use of my credit report Report shared with employer w/o consent
+Bank account or service,Other transaction issues 
+Loan,Lender damaged or destroyed vehicle 
+Loan,Lender damaged or destroyed property 
+Credit card,Credit monitoring or identity protection Insurance terms
+Loan,Charged bank acct wrong day or amt 
+Loan,Can't stop charges to bank account 
+Bank account or service,Other service issues 
+Bank account or service,Incorrect exchange rate 
+Loan,Lender sold the property 
+Bank account or service,Fraud or scam 
+Bank account or service,Money was not available when promised 
+Loan,Repaying your loan 
+Credit card,Other 
+Loan,Problems when you are unable to pay 
