@@ -1,4 +1,4 @@
-# Intel-Hackathan
+# Intel-Hackathon
 
 Objective: To develop a solution which can provide live support to customer representatives.
 
