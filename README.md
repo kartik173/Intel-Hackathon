@@ -14,9 +14,12 @@ Tools and Technologies: Speech Processing, Multithreading, Python, Pytorch, Deep
 3. speech_recognition
 4. nltk
 5. flask
+6. PyDaal
 
 
 # How to run:
+Install Intel Python distribution or run below command from conda termial.
+conda install pyDaal
 --make sure you have install all the above mentioned libraries and run below commands in the terminal from the file directory.
 1. python preprocessing.py
 2. python flask_ui.py
