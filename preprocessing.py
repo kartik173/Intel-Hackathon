@@ -2,18 +2,16 @@ import pandas as pd
 
 import re
 import sys
-from nltk.corpus import stopwords
-from nltk.stem.porter import PorterStemmer
+#from nltk.corpus import stopwords
+#from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import accuracy_score
 
-from nltk.tokenize import word_tokenize
+#from nltk.tokenize import word_tokenize
 
 data = pd.read_csv('Consumer_new.csv')
 data["Category"]=data["Category"].str.strip()
 
+'''
 corpus = []
 tokens=[]
 for i in range(0, len(data)):
@@ -25,8 +23,9 @@ for i in range(0, len(data)):
     tokens=tokens+review
     review = ' '.join(review)
     corpus.append(review)
-tokens=set(tokens)    
-desc=pd.DataFrame(columns=["Description"],data=corpus)
+tokens=set(tokens)
+'''    
+desc=pd.DataFrame(columns=["Description"],data=data)
 #x=pd.concat(columns=[][desc,data["Category"]], axis=1)
 
 from sklearn.model_selection import train_test_split
@@ -46,33 +45,29 @@ X_train_cv = cv.transform(X_train)
 X_test_cv = cv.transform(X_test)
 
 
-mnb = MultinomialNB(alpha = 0.5)
-mnb.fit(X_train_cv,y_train)
+from SVM1 import MultiSVM
+from daal.data_management import HomogenNumericTable
 
-y_mnb = mnb.predict(X_test_cv)
+#x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.40, random_state=42)
+trainData = HomogenNumericTable(X_train_cv)
+z = [[x] for x in y_train]
+trainDependentVariables= HomogenNumericTable(z)
+z = [[x] for x in y_test]
+testData=HomogenNumericTable(X_test_cv)
+testGroundTruth = HomogenNumericTable(z)
 
-#from sklearn.linear_model import LogisticRegression
-classifier = LogisticRegression(random_state = 0)
-classifier.fit(X_train_cv,y_train)
-y_mnb1 = classifier.predict(X_test_cv)
+daal_svm = MultiSVM(3,cacheSize=600000000)
+#Train
+trainingResult = daal_svm.training(trainData,trainDependentVariables)
+#Predict
+predictResults = daal_svm.predict(trainingResult,testData)
 
-
-from sklearn.svm import SVC
-classifier1 = SVC(kernel = 'linear', random_state = 0)
-classifier1.fit(X_train_cv,y_train)
-y_mnb2 = classifier1.predict(X_test_cv)
-
-from sklearn.ensemble import RandomForestClassifier
-classifier2 = RandomForestClassifier(n_estimators = 20, criterion = 'entropy', random_state = 0)
-classifier2.fit(X_train_cv,y_train)
-y_mnb3 = classifier2.predict(X_test_cv)
-
-print('LR: ', accuracy_score( y_mnb1 , y_test))
-print('Naive Bayes Accuracy: ', accuracy_score( y_mnb , y_test))
-print('SVM: ', accuracy_score( y_mnb2 , y_test))
-print('RF: ', accuracy_score( y_mnb3 , y_test))
+qualityMet = daal_svm.qualityMetrics(predictResults,testGroundTruth)
+#print accuracy
+print("Daal SVM Accuracy: "+ str(qualityMet.get('averageAccuracy')))
 
 
+'''
 import speech_recognition as sr 
 import time
 
@@ -108,10 +103,12 @@ def callback(recognizer, audio):
             cv1.fit(rev)
         
             review1_cv = cv.transform(rev)
-            pred.append([text,time.ctime(),classifier2.predict(review1_cv)[0]])
+            reviewData = HomogenNumericTable(review1_cv)
+            temp=daal_svm.predict(trainingResult,reviewData)
+            pred.append([text,time.ctime(),temp[0]])
             
             f=open('data.txt','a+')
-            f.write(text+","+time.ctime()+","+classifier2.predict(review1_cv)[0]+"\r\n")
+            f.write(text+","+time.ctime()+","+temp[0]+"\r\n")
             
             
     except sr.UnknownValueError:
@@ -139,8 +136,9 @@ try:
 
 except KeyboardInterrupt:
         print("Exiting the call")
+		
+'''
         
-
 
 
 
