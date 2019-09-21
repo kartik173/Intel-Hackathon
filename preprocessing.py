@@ -1,17 +1,22 @@
 import pandas as pd
-
+import numpy as np
 import re
-import sys
-#from nltk.corpus import stopwords
-#from nltk.stem.porter import PorterStemmer
-from sklearn.feature_extraction.text import CountVectorizer
+import sys, os
+from nltk.corpus import stopwords
+from nltk.stem.porter import PorterStemmer
+from sklearn.model_selection import train_test_split
+from nltk.tokenize import word_tokenize
 
-#from nltk.tokenize import word_tokenize
+from SVM1 import MultiSVM
+from daal.data_management import HomogenNumericTable
+
+sys.path.append(os.path.join(os.path.dirname(sys.executable),'share','pydaal_examples','examples','python','source'))
+from customUtils import getArrayFromNT
 
 data = pd.read_csv('Consumer_new.csv')
 data["Category"]=data["Category"].str.strip()
 
-'''
+
 corpus = []
 tokens=[]
 for i in range(0, len(data)):
@@ -23,37 +28,39 @@ for i in range(0, len(data)):
     tokens=tokens+review
     review = ' '.join(review)
     corpus.append(review)
-tokens=set(tokens)
-'''    
-desc=pd.DataFrame(columns=["Description"],data=data)
+tokens=list(set(tokens))
+
+di=[]
+
+for i in tokens:
+    temp=[]
+    for j in range(len(corpus)):
+        k=corpus[j].split()
+        temp.append(k.count(i))
+    di.append(temp)
+
+
+ar=np.array(di)
+ar=ar.T
+
+print (len(corpus),len(tokens))
+  
+#desc=pd.DataFrame(columns=["Description"],data=ar)
 #x=pd.concat(columns=[][desc,data["Category"]], axis=1)
 
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(desc['Description'], data['Category'], test_size = 0.2, random_state = 37)
+y= data['Category'].factorize(0)
+
+X_train, X_test, y_train, y_test = train_test_split(ar,y[0] , test_size = 0.2, random_state = 37)
 print ("X_train: ", len(X_train))
 print("X_test: ", len(X_test))
 print("y_train: ", len(y_train))
 print("y_test: ", len(y_test))
 
-
-cv = CountVectorizer()
-cv.fit(X_train)
-
-
-X_train_cv = cv.transform(X_train)
-
-X_test_cv = cv.transform(X_test)
-
-
-from SVM1 import MultiSVM
-from daal.data_management import HomogenNumericTable
-
-#x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.40, random_state=42)
-trainData = HomogenNumericTable(X_train_cv)
+trainData = HomogenNumericTable(X_train)
 z = [[x] for x in y_train]
 trainDependentVariables= HomogenNumericTable(z)
 z = [[x] for x in y_test]
-testData=HomogenNumericTable(X_test_cv)
+testData=HomogenNumericTable(X_test)
 testGroundTruth = HomogenNumericTable(z)
 
 daal_svm = MultiSVM(3,cacheSize=600000000)
@@ -66,13 +73,48 @@ qualityMet = daal_svm.qualityMetrics(predictResults,testGroundTruth)
 #print accuracy
 print("Daal SVM Accuracy: "+ str(qualityMet.get('averageAccuracy')))
 
+'''
+----For testing----
+do=[]
+text="i want to know about my loan and home loan"
+review1 = re.sub('[^a-zA-Z]', ' ', text)
+review1 = review1.lower()
+review1 = word_tokenize(review1)
+reviews=""
+ps = PorterStemmer()
+for word in review1:
+    if word in tokens:
+        if word not in set(stopwords.words('english')):
+            reviews = reviews+" "+ps.stem(word)
+for i in tokens:
+    temp=[]
+    
+    k=reviews.split()
+    temp.append(k.count(i))
+    do.append(temp)
+            
+iar=np.array(do)
+iar=iar.T
+
+#print (len(corpus),len(tokens))
+reviewData = HomogenNumericTable(iar)
+pred=daal_svm.predict(trainingResult,reviewData)
+
+outcome={0:'Bank account or service',1:'Loan',2:'Credit card'}
+
+l=getArrayFromNT(pred)
+
+print(outcome[int(l[0][0])])
 
 '''
+
 import speech_recognition as sr 
 import time
 
 r = sr.Recognizer() 
 mic_list = sr.Microphone.list_microphone_names() 
+outcome={0:'Bank account or service',1:'Loan',2:'Credit card'}
+
 
 pred=[]
 def callback(recognizer, audio):
@@ -98,17 +140,27 @@ def callback(recognizer, audio):
         #review1 = ' '.join(review1)
         
         if reviews!="":
-            cv1 = CountVectorizer()
-            rev=pd.Series(data=reviews)
-            cv1.fit(rev)
-        
-            review1_cv = cv.transform(rev)
-            reviewData = HomogenNumericTable(review1_cv)
-            temp=daal_svm.predict(trainingResult,reviewData)
-            pred.append([text,time.ctime(),temp[0]])
+            do=[]
+            for i in tokens:
+                temp=[]
+                
+                k=reviews.split()
+                temp.append(k.count(i))
+                do.append(temp)
+                        
+            iar=np.array(do)
+            iar=iar.T
+            
+            #print (len(corpus),len(tokens))
+            reviewData = HomogenNumericTable(iar)
+            pre=daal_svm.predict(trainingResult,reviewData)
+            l=getArrayFromNT(pre)
+
+            print(outcome[int(l[0][0])])
+            pred.append([text,time.ctime(),outcome[int(l[0][0])]])
             
             f=open('data.txt','a+')
-            f.write(text+","+time.ctime()+","+temp[0]+"\r\n")
+            f.write(text+","+time.ctime()+","+outcome[int(l[0][0])]+"\r\n")
             
             
     except sr.UnknownValueError:
@@ -128,20 +180,9 @@ stop_listening()
 time.sleep(0.1)
 stop_listening = r.listen_in_background(m, callback,phrase_time_limit=3)
 
-# do other things on the main thread
-
 print("start talking")
 try:
     while True: time.sleep(0.1)
 
 except KeyboardInterrupt:
         print("Exiting the call")
-		
-'''
-        
-
-
-
-
-
-
